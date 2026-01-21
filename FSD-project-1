@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> My New Webpage ❤️</title>
+    <link rel="stylesheet" href="index.css">
+    <style>
+    body{
+            background-color: darkred;
+            margin: 0;
+        } 
+    h1{
+            color: white;
+            font-size: 90px;
+            width: 100%;
+            text-align: center;
+            margin: 20px 0;
+            transition: all 1s ease;
+        }
+
+       
+        /* body:hover h1{
+            margin-left: 30px;
+            margin-top: -30px;
+        } */
+
+        
+    img{
+            width: 80%;
+            height: 800px;
+            display: block;
+            margin: 0 auto;
+        }
+
+    h2{
+            text-align: center;
+            color: aliceblue;
+            font-size: 50px;
+        }
+
+        .Sub{
+            background-color: aliceblue;
+            text-align: center;
+            width: 350px;
+            font-size: x-large;
+            border-radius: 30px;
+            transition: all 0.5s ease;
+        }
+
+     .Sub img{
+            width: 300px;
+            height: 200px;
+            margin-top: 0px;
+            border-radius: 30px;
+        }
+
+    .Sub button{
+            width: 300px;
+            height: 40px;
+            background-color: black;
+            color: white;
+            font-size: large;
+            border-radius: 30px;
+            border: none;
+        }
+
+    .Main{
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+        }
+
+
+    .Sub:hover{
+            transform: translateY(-20px);
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <h1>MONA momos</h1>
+
+    <img src="https://mir-s3-cdn-cf.behance.net/projects/404/6a15c4198566847.Y3JvcCwxMDgwLDg0NCwwLDA.jpg" alt="Main Image here">
+
+    <h2>Today's Offer</h2>
+
+    <div class="Main">
+        <div class="Sub">
+            <h3>Veg Momos</h3>
+            <img src="https://foodblogindia.com/wp-content/uploads/2024/10/Momos-Recipe-8.jpg" alt="">
+            <button>Order Now</button>
+        </div>
+
+        <div class="Sub">
+            <h3>Paneer Momos</h3>
+            <img src="https://5.imimg.com/data5/SELLER/Default/2023/7/325778897/VH/VK/BZ/95161976/paneer-momos-medium--1000x1000.png" alt="">
+            <button>Order Now</button>
+        </div>
+
+        <div class="Sub">
+            <h3>Darjeeling Momos</h3>
+            <img src="https://im.whatshot.in/img/2020/May/shutterstock-731938918-cropped-1581498688-1590753740.jpg" alt="">
+            <button>Order Now</button>
+        </div>
+
+        <div class="Sub">
+            <h3>Prawn Momos</h3>
+            <img src="https://oventales.com/wp-content/uploads/2020/11/Shrimp-Momos-Pin-1.jpg" alt="">
+            <button>Order Now</button>
+        </div>
+    </div>
+
+    <h2>Combo Dinner</h2>
+
+    <div class="Main">
+        <div class="Sub">
+            <h3>Veg Momos combo</h3>
+            <img src="https://th.bing.com/th/id/R.e49aa7a694f4a2047160ce5b4e8bea4d?rik=4uT4UQpWqCRqvg&riu=http%3a%2f%2fyourcookingpal.com%2fwp-content%2fuploads%2f2020%2f04%2fCYMERA_20200411_221626.jpg&ehk=hqP22lV0qiS5u4KqQaFubUKInUoJV3l0WymXehGenB4%3d&risl=&pid=ImgRaw&r=0" alt="">
+            <button>Order Now</button>
+        </div>
+
+        <div class="Sub">
+            <h3>Paneer Momos combo</h3>
+            <img src="https://i.ytimg.com/vi/NNpK5GFVSFQ/maxresdefault.jpg" alt="">
+            <button>Order Now</button>
+        </div>
+
+        <div class="Sub">
+            <h3>Darjeeling Momos Combo</h3>
+            <img src="https://res.cloudinary.com/purnesh/image/upload/w_1080,f_auto/header1600928878576.jpg" alt="">
+            <button>Order Now</button>
+        </div>
+
+        <div class="Sub">
+            <h3>Prawn Momos Combo</h3>
+            <img src="https://img.freepik.com/premium-photo/juicy-prawn-dumplings-momos-white-background-momos-image_1020697-136820.jpg" alt="">
+            <button>Order Now</button>
+        </div>
+    </div>
+
+    <h2>order@MONA momos.com</h2>
+
+</body>
+</html>
